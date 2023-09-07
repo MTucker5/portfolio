@@ -2,7 +2,6 @@
 *::before,
 *::after {
     box-sizing: border-box;
-
 }
 
 html {
@@ -22,7 +21,6 @@ ul {
     padding: 20px;
 }
 
-
 .toolbar {
     display: flex;
     width: 100%;
@@ -37,7 +35,6 @@ ul {
 a:link {
     color: #488cf5;
     text-decoration: none;
-
 }
 
 a:visited {
@@ -106,7 +103,6 @@ h2 {
     padding: 5rem 10px 10px 10px;
     color: white;
     font-size: 15px;
-
 }
 
 .about-me>p {
@@ -124,16 +120,11 @@ h2 {
 }
 
 #project-wrapper {
-    /*padding-left: 20px;
-	padding-right: 20px;*/
     padding: 6rem 20px 20px 20px;
-
 }
 
 h3 {
     font-size: 30px;
-
-
 }
 
 .column {
@@ -216,18 +207,15 @@ h5 {
 .socials {
     display: flex;
     flex-direction: column;
-    /*    gap: 10px;*/
     font-size: 20px;
     justify-content: flex-end;
     padding: 15px;
     font-color: #f7b68d;
 }
 
-
-.socials>i {
+.socials > i {
     align-self: flex-start;
 }
-
 
 @media screen and (min-width: 800px) {
     .toolbar {
